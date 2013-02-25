@@ -27,7 +27,7 @@ def growl_notif(title, description, icon):
         priority = 1,
         )
 
-def main:
+def main():
     since = None
     baseuri = "%s?access_token=%s" % (GITHUB_NOTIF_BASE_URI, GITHUB_TOKEN)
 
